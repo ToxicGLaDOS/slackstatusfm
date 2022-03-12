@@ -8,6 +8,10 @@ pip install -r requirements.txt
 Create a file named `config.py` in the same directory as `slackstatusfm.py` and populate it with your configuration like this (see below for details on getting these secrets):
 
 ```
+# Because this is a python file you can choose how you
+# want to import your secrets, for instance you could
+# read them from the environment instead of hardcoding them
+
 # API auth for lastfm
 LASTFM_API_KEY = "API_KEY_HERE"
 LASTFM_API_SECRET = "API_SECRET_HERE"
